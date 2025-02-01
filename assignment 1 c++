@@ -1,0 +1,26 @@
+/******************************************************************************
+
+Welcome to GDB Online.
+  GDB online is an online compiler and debugger tool for C, C++, Python, PHP, Ruby, 
+  C#, OCaml, VB, Perl, Swift, Prolog, Javascript, Pascal, COBOL, HTML, CSS, JS
+  Code, Compile, Run and Debug online from anywhere in world.
+
+*******************************************************************************/
+#include <iostream>
+
+// creator: Michael gbemibade
+int main()
+{
+    int x = 0; // 1st integer
+    int y = 0; // 2nd integer
+    int sum = 0; // answer integer
+    std::cout << "Hello World\n"; // Hello World greeting
+    std::cout << "please enter a number:"; // x integer
+    std::cin >> x;
+    std::cout << "please enter another number:"; // y integer
+    std::cin >> y;
+    sum = x - y; //substraction
+    // results
+    std::cout << "\nThe sum of the two numbers is: " << sum <<"\n";
+    return 0;
+}
